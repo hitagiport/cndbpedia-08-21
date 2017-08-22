@@ -8,7 +8,7 @@ class type(object):
     def __init__(self,a=""):
         self.type=a
         self.subClassOf=[]
-#ObjectProperties类
+            #ObjectProperties类
 class ObjectProperties(object):
     def __init__(self,a="",b="",c="None"):
         self.PropertiesName=a
@@ -31,7 +31,7 @@ class DataProperties(object):
 type_list=[]
 ObjectProperties_list=[]
 DataProperties_list=[]
-
+i=0
 #OP标签处理
 class typeHandler(xml.sax.ContentHandler):
     def __init__(self):
